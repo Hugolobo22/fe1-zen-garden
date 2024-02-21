@@ -1,34 +1,68 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
 html {
-    background: black;
-    background-image: url(brick.avif  );
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: #6b6666;
+    background-image: url(Deepslate.png);
     background-attachment: fixed;
     background-blend-mode: overlay;
     font-family: 'Nunito', sans-serif;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
-body {  
-    background  : whitesmoke; 
-    border-radius: 50px;
-    border:10px #6b6666 solid;
-    width: 100vw;
-    max-width: 1000px;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 0 10px #000000aa;
-    padding: 5px;
-    margin-top: 150px;
-    margin-bottom: 50px;
+body {
+        background  : white; 
+        background-image: url(brick.jpg);
+        border-radius: 50px;
+        width: 100vw;
+        max-width: 650px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #000000aa;
+        padding: 25px;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+}
+
+a:link {
+    color: #993300;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #999900;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #993300;
+    text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #993300;
+}
+
+.extra1 {
+    background-image: url(obsidian.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    right: 0px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 5;
+}
+
+.extra2 {
+    z-index: 2;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    right: -350px;
+    top: 1500px;
+    background-image: url(enchant.webp);
+    background-repeat: no-repeat;
+    background-position: center;
 }
