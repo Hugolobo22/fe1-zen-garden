@@ -25,22 +25,43 @@ body {
         padding-bottom: 50px;
 }
 
+@font-face {
+    font-family: kodo mono;
+    src: url(KodeMono-VariableFont_wght.ttf);
+}
+
+h1 {
+    font-family: kodo mono;
+}
+
+h2 {
+    font-family: kodo mono;
+}
+
+h3 {
+    font-family: kodo mono;
+}
+
+p {
+    font-family: kodo mono;
+}
+
 a:link {
-    color: #993300;
+    color: purple;
     text-decoration: none;
 }
 
 a:visited {
-    color: #999900;
+    color: green;
     text-decoration: none;
 }
 
 a:hover, a:active {
-    color: #993300;
+    color: blueviolet;
     text-decoration: none;
     border-bottom-width: 1px;
     border-bottom-style: dotted;
-    border-bottom-color: #993300;
+    border-bottom-color: blue;
 }
 
 .extra1 {
@@ -61,8 +82,45 @@ a:hover, a:active {
     width: 100%;
     position: absolute;
     right: -350px;
-    top: 1500px;
+    top: 2000px;
     background-image: url(enchant.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.extra3 {
+    z-index: 2;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    right: 400px;
+    top: -50px;
+    background-image: url(dragon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.extra4 {
+    z-index: 2;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    right: -990px;
+    top: 2000px;
+    background-image: url(Herobrine.webp);
+    transform: rotate(330deg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.extra5 {
+    z-index: 2;
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    right: -350px;
+    top: -100px;
+    background-image: url(end.webp);
     background-repeat: no-repeat;
     background-position: center;
 }
