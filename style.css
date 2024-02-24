@@ -79,9 +79,9 @@ a:hover, a:active {
 .extra2 {
     z-index: 2;
     height: 800px;
-    width: 100%;
+    width: 280px;
     position: absolute;
-    right: -350px;
+    right: 460px;
     top: 2000px;
     background-image: url(enchant.webp);
     background-repeat: no-repeat;
@@ -91,9 +91,9 @@ a:hover, a:active {
 .extra3 {
     z-index: 2;
     height: 800px;
-    width: 100%;
+    width: 380px;
     position: absolute;
-    right: 400px;
+    right: 1170px;
     top: -50px;
     background-image: url(dragon.png);
     background-repeat: no-repeat;
@@ -102,11 +102,11 @@ a:hover, a:active {
 
 .extra4 {
     z-index: 2;
-    height: 800px;
-    width: 100%;
+    height: 400px;
+    width: 200px;
     position: absolute;
-    right: -990px;
-    top: 2000px;
+    right: -80px;
+    top: 2200px;
     background-image: url(Herobrine.webp);
     transform: rotate(330deg);
     background-repeat: no-repeat;
@@ -115,12 +115,24 @@ a:hover, a:active {
 
 .extra5 {
     z-index: 2;
-    height: 800px;
-    width: 100%;
+    height: 500px;
+    width: 180px;
     position: absolute;
-    right: -350px;
-    top: -100px;
+    right: 510px;
+    top: 60px;
     background-image: url(end.webp);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.extra6 {
+    height: 10px;
+    width: 100px;
+    background-image: url(enderman.webp);
+    background-repeat: repeat-x;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
